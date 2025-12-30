@@ -48,33 +48,18 @@
 			<span>имени Финрода Фелагунда</span>
 		</h1>
 
-		<p class="subtitle fansytext">вновь откроет свои двери</p>
+		<p class="subtitle fansytext">вновь открывает свои двери</p>
 
 		<div class="divider">
 			<span>◆</span>
-			<span class="fansytext">до открытия</span>
+			<span class="fansytext">ДОБРО ПОЖАЛОВАТЬ!</span>
 			<span>◆</span>
 		</div>
 
 		<div class="timer">
 			<div class="card">
-				<div class="value fansytext">{days}</div>
-				<div class="label fansytext">дней</div>
-			</div>
-
-			<div class="card">
-				<div class="value fansytext">{hours}</div>
-				<div class="label fansytext">часов</div>
-			</div>
-
-			<div class="card">
-				<div class="value fansytext">{minutes}</div>
-				<div class="label fansytext">минут</div>
-			</div>
-
-			<div class="card">
-				<div class="value fansytext">{seconds}</div>
-				<div class="label fansytext">секунд</div>
+				<div class="value fansytext">95.55.119.202:25565</div>
+				<div class="label fansytext" style="font-size: 20px;">Версия 1.21.10</div>
 			</div>
 		</div>
 
@@ -137,9 +122,10 @@
 	}
 
 	.timer {
-		display: grid;
-		grid-template-columns: repeat(4, 1fr);
-		gap: 24px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
 		margin-bottom: 40px;
 	}
 
